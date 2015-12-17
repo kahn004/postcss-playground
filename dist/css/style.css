@@ -1,0 +1,31 @@
+a:hover { color: purple; }
+
+.item {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+/* Custom media queries with ranges */
+
+@media (min-width: 500px) and (max-width: 1200px) {
+	/* Medium viewport styles */
+}
+
+/* Custom selectors */
+
+a:hover, a:focus {
+	/* Enter styles go here */
+}
+
+input, .input, .inputField {
+	/* Input field styles go here */
+}
+
+/* Vars */
+
+.square {
+	background: blue;
+	border-radius: 10px;
+}
+
+body { background: black; }

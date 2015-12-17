@@ -1,0 +1,27 @@
+{
+  "name": "postcss-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahn004/postcss-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahn004/postcss-playground/issues"
+  },
+  "homepage": "https://github.com/kahn004/postcss-playground#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
+    "postcss-focus": "^1.0.0",
+    "precss": "^1.3.0"
+  }
+}

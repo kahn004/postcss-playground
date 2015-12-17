@@ -1,0 +1,41 @@
+:root {
+	--linkColour: purple;
+}
+
+a:hover { color: var(--linkColour); }
+
+.item {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+/* Custom media queries with ranges */
+@custom-media --only-medium-screen (width >= 500px) and (width <= 1200px);
+
+@media (--only-medium-screen) {
+	/* Medium viewport styles */
+}
+
+/* Custom selectors */
+@custom-selector :--enter :hover, :focus;
+@custom-selector :--input input, .input, .inputField;
+
+a:--enter {
+	/* Enter styles go here */
+}
+
+:--input {
+	/* Input field styles go here */
+}
+
+/* Vars */
+$blue: blue;
+$green: green;
+$radius: 10px;
+
+.square {
+	background: $blue;
+	border-radius: $radius;
+}
+
+@import 'partials/base';
